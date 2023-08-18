@@ -14,7 +14,7 @@ function App() {
           <h1>Color Battle</h1>
         </header>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Nicki vs Ken</h1>
       <div className="card">
         <button onClick={() => setNickiCount(nickiCount + 1)}>
           Nicki's count is {nickiCount}
