@@ -30,7 +30,7 @@ function App() {
             <span className="color-battle"> Battle</span></h1>
         </header>
       </div>
-      <h1>Nicki vs Ken</h1>
+      <h1><em>Nicki</em> <b>vs</b> Ken</h1>
       <div className="">
         <Game /> 
       </div>

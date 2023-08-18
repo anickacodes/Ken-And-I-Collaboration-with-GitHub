@@ -53,6 +53,18 @@
   color: red; /* You can choose any color you want */
 }
 
+em {
+  color: teal;
+}
+b{
+  color: white;
+}
+
+h1{
+  color: gold;
+ 
+}
+
 .player {
   margin-bottom: 20px;
   padding: 20px;
