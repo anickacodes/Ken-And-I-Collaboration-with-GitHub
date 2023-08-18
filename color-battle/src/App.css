@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.multi-color-text {
+  font-size: 2rem;
+}
+
+.color-battle {
+  color: red; /* You can choose any color you want */
+}
