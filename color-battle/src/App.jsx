@@ -4,24 +4,27 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [nickiCount, setNickiCount] = useState(0)
-  const [kensCount, setKensCount] = useState(0)
+  const [nickiCount, setNickiCount] = useState(0);
+  const [kensCount, setKensCount] = useState(0);
 
   return (
     <>
-     <div>
-  <header>
-    <h1>Color Battle</h1>
-  </header>
-</div>
-      <h1>Vite + React</h1>
+      <div>
+        <header>
+          <h1>Color Battle</h1>
+        </header>
+      </div>
+      <h1>Nicki vs Ken</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setNickiCount(nickiCount + 1)}>
+          Nicki's count is {nickiCount}
         </button>
-        </div>
+        <button onClick={() => setKensCount(kensCount + 1)}>
+          Ken's count is {kensCount}
+        </button>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
