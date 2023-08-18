@@ -5,7 +5,7 @@ import './App.css'
 import Game from './game'
 
 function App() {
-  const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+  const colors = ['red', 'orange', 'yellow', 'teal', 'blue', 'purple'];
 
   const getLetterStyle = (index) => {
     return {

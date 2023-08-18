@@ -54,7 +54,7 @@
 }
 
 em {
-  color: teal;
+  color: rgb(2, 123, 203);
 }
 b{
   color: white;
@@ -62,14 +62,17 @@ b{
 
 h1{
   color: gold;
- 
+  background: linear-gradient( rgb(251, 111, 111) , rgba(6, 6, 77, 0.514));
+  /* -webkit-text-fill-color: transparent; */
+  background-clip: text;
+  border-radius: .7em;
 }
 
 .player {
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 2em;
   text-align: center;
   background-color: #323232;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -87,4 +90,5 @@ h1{
 
 button {
   margin-top: 10px;
+  border-radius: 22em;
 }
