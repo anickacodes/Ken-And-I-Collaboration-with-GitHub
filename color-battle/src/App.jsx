@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Game from './game'
 
 function App() {
   const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
@@ -20,7 +21,7 @@ function App() {
     <>
       <div>
         <header>
-        <h1 className="multi-color-text">
+          <h1 className="multi-color-text">
             <span style={getLetterStyle(0)}>C</span>
             <span style={getLetterStyle(1)}>o</span>
             <span style={getLetterStyle(2)}>l</span>
@@ -30,11 +31,14 @@ function App() {
         </header>
       </div>
       <h1>Nicki vs Ken</h1>
+      <div className="">
+        <Game /> 
+      </div>
       <div className="card">
-        <button onClick={() => setNickiCount(nickiCount + 1)}>
+        <button className='buttonStyle' onClick={() => setNickiCount(nickiCount + 1)}>
           Nicki's count is {nickiCount}
         </button>
-        <button onClick={() => setKensCount(kensCount + 1)}>
+        <button className='buttonStyle' onClick={() => setKensCount(kensCount + 1)}>
           Ken's count is {kensCount}
         </button>
       </div>
